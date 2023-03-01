@@ -19,8 +19,8 @@ public class MethodeExcer {
         //Output Methode 3
         System.out.println(isBiggerThan100(34, 55));
 
-        String name = "Suderina";
-        System.out.println(name.toUpperCase());
+        String name = "Alice Wonderland";
+        System.out.println(name.toLowerCase());
 
         //String bookName = "Alice in Woderland in fancy";
        System.out.println(longerThan20("Das Fazit fancy Studien zu Resilienz und innerer Stärke - Ernährung, Bewegung, Meditation"));
@@ -70,5 +70,4 @@ public class MethodeExcer {
     public static boolean beideWahr(String bookName) {
         return longerThan20(bookName) && nameContainsFan(bookName);
     }
-
 }
